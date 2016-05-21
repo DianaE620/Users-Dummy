@@ -1,0 +1,29 @@
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+th {
+  text-align: left;
+}
+
+.f_login {
+  border: 5px solid pink;
+  text-align: center;
+  border-radius: 7px;
+  padding: 50px;
+}
+
+.error {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.f_new{
+  border: 5px solid pink;
+  border-radius: 7px;
+  padding: 30px 30px 30px 60px;
+  width: 290px;
+}

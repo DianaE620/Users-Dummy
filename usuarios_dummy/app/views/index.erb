@@ -1,0 +1,23 @@
+  <h1>Login!</h1>
+
+  <br><br>
+  <form method="post" action="/login"class="f_login">
+    Ingresa tu Usuario:
+    <br><br>
+    <input type="text" name="user">
+    <br><br>
+    Ingresa tu Contraseña:
+    <br><br>
+    <input type="password" name="pass">
+    <br><br>
+    <button>Enviar</button>
+  </form> 
+
+  <br><br>
+  <a href="/new_user">No estas registrado?</a>
+
+  <% if @error %>
+    <div class="error">Verifica el usuario y contraseña que ingresaste</div>
+  <% end %>
+
+  
